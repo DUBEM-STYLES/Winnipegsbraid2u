@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Sparkles, HeartHandshake, Scissors, ArrowRight } from 'lucide-react';
-import founderPortrait from '../../assets/images/regenerated_image_1792853561842.jpg';
+import brandArtistryImage from '../../assets/images/regenerated_image_1792858643335.jpg';
 
 export const BrandIntro: React.FC = () => {
   return (
@@ -9,14 +9,14 @@ export const BrandIntro: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
           
-          {/* Editorial Visual Composition with Ines Founder Portrait */}
+          {/* Editorial Visual Composition with Protective Braiding Artistry */}
           <div className="lg:col-span-5 relative">
             <div className="relative mx-auto max-w-md lg:max-w-none">
               <div className="aspect-[4/5] rounded-2xl overflow-hidden shadow-xl border border-[#D8C29A]/40 bg-[#2A201D]">
                 <img
-                  src={founderPortrait}
-                  alt="Ines - Founder & Lead Stylist of Winnipeg Braids 2u"
-                  className="w-full h-full object-cover object-top"
+                  src={brandArtistryImage}
+                  alt="Winnipeg Braids 2u - Gentle protective hair artistry and precision parting"
+                  className="w-full h-full object-cover object-center"
                 />
               </div>
 

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 80" width="320" height="80">
+  <rect width="320" height="80" rx="8" fill="#F5EBD0" stroke="#D8C29A" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <circle cx="45" cy="40" r="24" fill="#7F011F" />
+  <text x="45" y="47" font-family="'Cormorant Garamond', serif" font-size="20" font-weight="bold" fill="#F5EBD0" text-anchor="middle">WB</text>
+  <text x="85" y="36" font-family="'Cormorant Garamond', serif" font-size="20" font-weight="600" fill="#7F011F" letter-spacing="0.5">Winnipeg Braids 2u</text>
+  <text x="86" y="52" font-family="'Inter', sans-serif" font-size="9" font-weight="500" fill="#54433B" letter-spacing="1.5">OFFICIAL LOGO PLACEHOLDER</text>
+  <text x="86" y="64" font-family="'Inter', sans-serif" font-size="7.5" fill="#7F011F" opacity="0.8">Replace at: /public/images/brand-logo.png</text>
+</svg>

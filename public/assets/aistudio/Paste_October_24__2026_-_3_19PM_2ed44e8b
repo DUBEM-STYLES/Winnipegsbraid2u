@@ -1,0 +1,923 @@
+# WINNIPEG BRAIDS 2U — COMPLETE WEBSITE DESIGN AND DEVELOPMENT BRIEF
+
+## 1. PROJECT OVERVIEW
+
+Act as a senior UI/UX designer, luxury beauty-brand strategist, and experienced full-stack web developer. Design and build a premium, elegant, modern, fully responsive website for **Winnipeg Braids 2u**, a Winnipeg-based beauty business specialising in hair braiding and protective hairstyles, with an expanded offering of spa and wellness services.
+
+The website should position Winnipeg Braids 2u as a welcoming, sophisticated beauty destination where hair artistry, personal care, relaxation, and wellness come together.
+
+The experience should feel luxurious, warm, feminine, culturally expressive, trustworthy, and professionally designed. It must be visually impressive without becoming cluttered or overly decorative.
+
+This is not simply a landing page or a static design mockup. Build a complete website with functional navigation, service listings, interactive booking, automatic price calculations, gallery interactions, contact forms, and reusable components.
+
+### Primary objectives
+
+- Establish a premium and recognisable beauty brand.
+- Showcase braiding, protective hairstyles, spa treatments, and wellness services.
+- Make it easy for customers to explore services and understand pricing.
+- Allow customers to select multiple services in one booking request.
+- Support both studio appointments and home-service requests where applicable.
+- Make the business easy to contact.
+- Present the founder and the brand story professionally.
+- Make future content, prices, images, and services easy to update.
+
+## 2. WEBSITE STRUCTURE — EXACTLY SIX PAGES
+
+Build exactly these six main pages:
+
+1. Home
+2. Services
+3. About Us
+4. Gallery
+5. Contact
+6. Book
+
+The Book page should direct users into the booking experience on the Services page, opening it in a dedicated booking mode. Do not create an unnecessary seventh page for checkout or booking confirmation.
+
+Use React, TypeScript, reusable components, and React Router or an equivalent routing system. Each page should have a clear URL, consistent navigation, and a responsive layout.
+
+## 3. BRAND IDENTITY AND DESIGN SYSTEM
+
+### Brand name
+
+**Winnipeg Braids 2u**
+
+Use the brand name exactly as written. Preserve the correct spelling and capitalisation throughout the website.
+
+### Primary brand colours
+
+- Light Sand: `#F5EBD0`
+- Wine Red: `#7F011F`
+
+### Supporting palette
+
+- Soft Ivory: `#F9F6F0`
+- Warm Espresso: `#2A201D`
+- Warm Mocha: `#54433B`
+- Champagne Gold: `#D8C29A`
+- White: `#FFFFFF`
+
+Use the light sand colour for spacious backgrounds, elegant section transitions, cards, and soft visual surfaces. Use wine red for important buttons, navigation accents, links, active states, and selected decorative elements.
+
+Use espresso and mocha for readable text and depth. Champagne gold should be used sparingly for premium details, borders, icons, and subtle accents.
+
+Maintain strong contrast and readability. Do not use every colour equally or allow decorative elements to overwhelm the content.
+
+### Typography
+
+Use a sophisticated serif typeface for major headings, such as Cormorant Garamond or Playfair Display.
+
+Use a clean sans-serif typeface such as Inter or Manrope for body text, forms, service descriptions, buttons, navigation, and prices.
+
+Typography should feel editorial and premium. Use generous line spacing, clear heading hierarchy, restrained uppercase labels, and comfortable reading widths.
+
+### Visual direction
+
+The overall art direction should combine:
+
+- Luxury salon editorial photography
+- Premium spa and wellness imagery
+- Warm natural lighting
+- Cream, sand, wine-red, and earthy tones
+- Spacious layouts and generous whitespace
+- Elegant serif typography
+- Refined image cropping
+- Subtle transitions and animations
+- Rounded corners used selectively
+- Minimal, consistent iconography
+- Sophisticated layouts inspired by premium beauty and wellness brands
+
+Avoid generic templates, excessive gradients, random colours, excessive shadows, oversized rounded cards everywhere, and unnecessary animations.
+
+The result should look like a professionally art-directed beauty business, not a generic AI-generated website.
+
+## 4. OFFICIAL BRAND LOGO — REQUIRED PLACEHOLDERS
+
+Create a dedicated, visible, replaceable space for the official Winnipeg Braids 2u logo.
+
+**Do not invent, redesign, recreate, or substitute the official logo with ordinary typed text.** The real logo will be uploaded separately.
+
+### Header logo
+
+- Place the logo on the far left of the main navigation.
+- Give it sufficient space and prominence.
+- Preserve the original proportions.
+- Make the logo clickable, linking to the homepage.
+- Ensure it remains legible against the header background.
+- On mobile, resize it proportionally without stretching or cropping.
+- Maintain balanced spacing between the logo, navigation links, and primary booking button.
+
+### Footer logo
+
+Include a second logo placement in the footer, accompanied by a short brand description and the business contact details.
+
+Use a version that remains legible against the footer background. Do not recolour the original logo automatically.
+
+### Logo asset requirements
+
+Create a dedicated asset location such as:
+
+`/public/images/brand-logo.png`
+
+Support transparent PNG and SVG formats. Use `object-fit: contain` or an equivalent method to preserve the logo's proportions.
+
+If the real logo has not yet been supplied, display a clean, neutral placeholder that clearly indicates where the logo belongs. Do not generate a fictional replacement.
+
+Make logo sizing configurable through a shared component so it can be adjusted consistently across all six pages.
+
+Do not create different logos for different pages. Use the same official brand asset throughout the website.
+
+## 5. GLOBAL NAVIGATION
+
+Create a refined, responsive navigation bar that appears consistently across the six pages.
+
+Navigation items:
+
+- Home
+- Services
+- About Us
+- Gallery
+- Contact
+- Book Now
+
+Place the official logo on the left and the navigation on the right on desktop.
+
+Make “Book Now” the primary navigation CTA, using the wine-red brand colour.
+
+The navigation should be clean, elegant, and easy to use. A subtle sticky header may be used while scrolling, provided it does not obstruct content.
+
+On mobile, use a functional hamburger menu with accessible controls, clear active states, and adequate touch targets.
+
+All navigation links must lead to their correct pages. Do not leave dead links or non-functional buttons.
+
+## 6. HOME PAGE
+
+The homepage must make a strong visual impression immediately.
+
+### A. Full-screen cinematic hero
+
+**This is the most important visual requirement of the entire website.**
+
+Create one immersive, full-width, full-height hero section using a single cinematic image or carefully composed background image that brings together the atmosphere of a professional hair salon and a premium spa or wellness space.
+
+The hero must use one unified visual composition. Do not split it into two side-by-side cards, separate salon and spa panels, or a collage of unrelated images.
+
+The first screen should feel immersive, editorial, calm, and luxurious. The image should dominate the visual experience.
+
+Use a high-quality image with warm natural light, beautiful salon details, elegant interiors, premium textures, and a relaxing atmosphere. The image should communicate both hair artistry and wellness without feeling visually overcrowded.
+
+Apply a subtle overlay or gradient only where necessary to make the text readable.
+
+#### Hero text
+
+Eyebrow:
+
+**BEAUTY • BRAIDING • SPA • WELLNESS**
+
+Main headline:
+
+**Your Beauty. Your Ritual. Your Sanctuary.**
+
+Supporting copy:
+
+“Discover expert hair artistry, beautiful protective styles and restorative beauty experiences in one welcoming destination in Winnipeg.”
+
+Primary CTA:
+
+**Book Your Experience**
+
+Secondary CTA:
+
+**Explore Our Services**
+
+The primary CTA should open the booking experience. The secondary CTA should lead to the Services page.
+
+Keep the text hierarchy elegant and readable. The hero should not be crowded with too many buttons, badges, or paragraphs.
+
+Do not place a large logo over the hero if it compromises the image or headline. The primary logo placement belongs in the navigation.
+
+### B. Brand introduction
+
+Create an elegant introduction section explaining the business's approach to beauty, personal care, and relaxation.
+
+Suggested heading:
+
+**Beauty That Feels Like You.**
+
+Suggested copy:
+
+“At Winnipeg Braids 2u, beauty is more than a look. It is an experience shaped by care, creativity, comfort, and confidence. From beautiful protective hairstyles to moments of relaxation and self-care, we bring your beauty needs together in one welcoming destination.”
+
+Use a balanced layout with refined imagery and generous whitespace.
+
+### C. Signature hair services
+
+Introduce the key hair services with attractive images and concise descriptions.
+
+Include categories such as:
+
+- Cornrows and French braids
+- Knotless braids
+- Box braids
+- Twists
+- Crochet braids
+- Weaves
+- Dreadlocks and loc-related styling
+
+Only display services that the business actually offers. Keep the service data editable so categories and descriptions can be adjusted.
+
+Each service preview should include a name, short description, image, price indication where available, and a link to explore or book the service.
+
+Use a refined editorial grid rather than making every item look like an identical generic card.
+
+CTA: **Explore Hair Services**
+
+### D. Spa and wellness introduction
+
+Give spa and wellness services equal brand importance alongside braiding. Do not make spa services appear like a minor afterthought.
+
+Suggested heading:
+
+**Make Space for Yourself.**
+
+Suggested copy:
+
+“Take a moment to slow down, reset, and reconnect with yourself. Explore our spa and wellness experiences, thoughtfully presented to complement your personal beauty routine.”
+
+Create a beautiful visual section with relaxing imagery, subtle backgrounds, and a clear CTA.
+
+Display only verified services. Until the final spa service list and prices are provided, use editable placeholders in the development environment and avoid presenting unconfirmed treatments as available for purchase.
+
+CTA: **Explore Spa & Wellness**
+
+### E. Why choose Winnipeg Braids 2u?
+
+Create a premium section highlighting genuine business strengths.
+
+Suggested themes:
+
+- Personalised beauty experiences
+- Attention to detail
+- Care and comfort
+- Hair artistry and protective styling
+- Convenient appointment options
+- A welcoming beauty environment
+
+Use concise copy and simple, consistent icons.
+
+Do not invent professional certifications, years of experience, awards, medical qualifications, or claims that have not been supplied by the business.
+
+### F. Gallery preview
+
+Display a curated selection of images from the Gallery page, combining relevant hair and spa imagery.
+
+Use an editorial grid with varied image proportions and clean spacing.
+
+CTA: **View the Gallery**
+
+Use genuine business photography when available. Clearly treat temporary stock imagery as demonstration imagery and do not misrepresent it as the business's own work.
+
+### G. Testimonials
+
+Create a testimonial section using authentic customer feedback supplied by the business.
+
+Preserve the original meaning of genuine testimonials. Do not invent customer names, reviews, star ratings, or quotations.
+
+If verified testimonials are not yet available, display an editable placeholder in development or hide the testimonial section until authentic content is provided.
+
+### H. Home-service section
+
+Introduce the possibility of home-service appointments where the selected service is eligible.
+
+Suggested heading:
+
+**Beauty, Brought Closer to You.**
+
+Suggested copy:
+
+“Enjoy the convenience of a beauty appointment at home when your selected service and location qualify.”
+
+Explain that travel fees may apply depending on distance and service eligibility. The customer should see the applicable fee before submitting a booking request.
+
+CTA: **Request a Home Appointment**
+
+Do not imply that every service is automatically available at home.
+
+### I. Final homepage CTA
+
+Finish with an elegant, high-impact CTA section.
+
+Suggested heading:
+
+**Your Next Beauty Moment Starts Here.**
+
+Supporting copy:
+
+“Explore our services and find an experience that feels right for you.”
+
+Buttons:
+
+- Book Your Experience
+- Get in Touch
+
+### J. Footer
+
+Include:
+
+- Official logo placeholder
+- Short brand description
+- Quick links to all six pages
+- Business phone number
+- Business email
+- Business address
+- Opening hours, marked for verification before publication
+- Social media links, using verified profile URLs only
+- Privacy policy and any required website policies
+- Copyright notice with the correct current year
+
+Keep the footer sophisticated, well-spaced, and consistent with the overall brand.
+
+## 7. ABOUT US PAGE
+
+The About Us page should communicate the business's identity, values, and approach to beauty in a personal but professional manner.
+
+### A. Page hero
+
+Heading:
+
+**Beauty Built on Care, Culture and Confidence.**
+
+Supporting copy:
+
+“Discover the heart behind Winnipeg Braids 2u and our commitment to creating welcoming beauty experiences rooted in artistry, care, and personal expression.”
+
+Use a refined image or understated visual background that complements the homepage without repeating the same layout.
+
+### B. Founder section — Ines
+
+This section must have a dedicated portrait placeholder for the actual founder, Ines.
+
+Use a two-column editorial layout on desktop:
+
+- One column for the founder's portrait
+- One column for the founder's name, introduction, and brand story
+
+On mobile, stack the portrait and text vertically with comfortable spacing.
+
+**Do not generate a fictional portrait of Ines, use an unrelated person's photo as if it were her, or invent personal details about her life.**
+
+Create a clearly defined image slot such as:
+
+`/public/images/founder-ines.jpg`
+
+If the real portrait is not available, show an elegant neutral placeholder with a subtle label such as “Founder portrait goes here.”
+
+Include an editable text area headed:
+
+**Meet Ines**
+
+Use the following provisional brand introduction, which can be edited by the business:
+
+“Winnipeg Braids 2u was created around the belief that beauty should feel personal, welcoming, and empowering. Through hair artistry and an expanding focus on beauty and wellness, the brand aims to offer experiences that help clients express themselves, feel cared for, and make time for their wellbeing.
+
+Our approach brings together creativity, attention to detail, and a welcoming atmosphere, with the goal of making every visit a meaningful part of your personal beauty routine.”
+
+This is provisional brand copy, not a verified biography. Do not add claims about Ines's background, qualifications, family, journey, years in business, or motivations unless those details are supplied.
+
+### C. Our values
+
+Present three values in a visually elegant layout.
+
+**Beauty and Confidence**
+
+We believe beauty should support individual expression and help people feel comfortable in their own style.
+
+**Care and Comfort**
+
+We aim to create welcoming experiences where clients feel respected, considered, and at ease.
+
+**Culture and Craft**
+
+We value the artistry, creativity, and attention to detail that make personal beauty experiences distinctive.
+
+### D. Our approach
+
+Explain the business's focus on personalised service, thoughtful presentation, and bringing hair, beauty, and wellness together.
+
+Keep the content concise and genuine.
+
+### E. About-page CTA
+
+Heading:
+
+**Let's Make Time for You.**
+
+Buttons:
+
+- Explore Our Services
+- Book Your Experience
+
+## 8. SERVICES PAGE AND FUNCTIONAL BOOKING SYSTEM
+
+The Services page is both a service catalogue and the primary booking interface.
+
+It must support customers who want to browse services as well as customers who want to select multiple services and submit a single appointment request.
+
+### A. Service categories
+
+Organise services into clear categories, including:
+
+1. Braiding
+2. Protective Styles
+3. Weaves and Other Hair Services
+4. Spa Services
+5. Wellness Services
+
+Only show categories and services that are genuinely offered or explicitly marked as coming soon.
+
+Provide category filters or tabs that allow customers to switch between service groups without confusion.
+
+### B. Service data structure
+
+Build services from a reusable, structured data source rather than hardcoding prices independently throughout the interface.
+
+Each service should support fields such as:
+
+- Unique service ID
+- Service name
+- Category
+- Description
+- Image
+- Pricing type: fixed, starting price, range, or quote required
+- Minimum and maximum price where applicable
+- Duration, if confirmed
+- Home-service eligibility
+- Availability status
+- Active or inactive status
+
+Do not invent durations or final prices for services that have not been confirmed.
+
+### C. Hair-service pricing
+
+The following are preliminary historical price ranges and must remain editable pending confirmation.
+
+| Service | Preliminary price range |
+|---|---:|
+| Cornrows | CAD $60–$100 |
+| French braids | CAD $60–$100 |
+| Crochet braids | CAD $60–$100 |
+| Weaves | CAD $60–$100 |
+| Knotless braids | CAD $100–$350 |
+| Twists | CAD $100–$350 |
+| Dreadlocks | CAD $100–$350 |
+| Medium box braids | CAD $100–$350 |
+
+These prices are estimates from earlier business information, not guaranteed current prices. Do not present them as confirmed final rates without business approval.
+
+The final price may depend on the style, hair length, complexity, and other factors. Where the exact price cannot be determined automatically, clearly display a starting price or estimated range and mark the booking for confirmation.
+
+### D. Spa and wellness pricing
+
+Create the structure for spa and wellness services, but do not invent the business's treatment menu or final prices.
+
+Use editable placeholder records until the actual service list, prices, and durations are supplied.
+
+Do not let unconfirmed placeholder prices appear to customers as real charges. A service without a confirmed price should display “Price to be confirmed” or an equivalent clear label and require confirmation before the booking can be finalised.
+
+### E. Multiple-service selection
+
+Customers must be able to select more than one service during a single booking.
+
+Each service should have a clear selection control, such as an “Add to booking” button or checkbox.
+
+Display a persistent booking summary showing:
+
+- Selected services
+- Individual prices or estimates
+- Quantities where applicable
+- Subtotal
+- Applicable home-service fee
+- Total estimate where calculable
+
+Customers should be able to remove services, change selections, and return to browsing without losing their current selections unnecessarily.
+
+### F. Automatic price calculation
+
+Implement live price calculations using the selected services and their pricing rules.
+
+For fixed-price services:
+
+`Subtotal = sum of selected fixed service prices`
+
+For services with price ranges, show the minimum and maximum estimated totals when appropriate.
+
+For services requiring a quote, do not assign a made-up price. Mark the overall booking as requiring confirmation and explain that the final total will be provided by the business.
+
+If some services have fixed prices and others require quotes, display the known subtotal separately from the unconfirmed portion.
+
+Update the booking summary immediately whenever a customer adds or removes a service.
+
+Use a consistent currency label of **CAD ($)**, subject to business confirmation.
+
+### G. Studio or home-service selection
+
+Provide a clear choice between:
+
+- Studio appointment
+- Home service, where eligible
+
+If the customer selects home service, reveal the relevant location fields and calculate or request the travel fee according to configured business rules.
+
+Historical information indicates a home-service travel fee of CAD $20–$40 depending on distance. Treat this as unconfirmed and editable.
+
+Do not charge a fixed travel fee to every booking. Apply a fee only when the customer selects home service and the fee is supported by the configured pricing rules.
+
+If the customer's location is not yet sufficient to calculate the fee, display “Travel fee to be confirmed” and include it in the final quote process.
+
+### H. Booking form
+
+After selecting services, allow customers to provide:
+
+- Full name
+- Email address
+- Phone number
+- Preferred appointment date
+- Preferred appointment time
+- Selected services
+- Studio or home-service preference
+- Address or general location for eligible home services
+- Additional notes or special requests
+
+Collect only information necessary for the appointment request.
+
+Include a clear privacy notice and appropriate consent language where needed.
+
+### I. Booking submission and confirmation
+
+Build the form so it validates required fields, prevents accidental duplicate submissions, and presents clear loading, success, and error states.
+
+**Do not fake a completed booking.**
+
+If no booking backend or scheduling integration has been configured, operate in clearly labelled **appointment request mode**. Explain that the request will require confirmation from the business.
+
+Do not claim an appointment is confirmed, invent available appointment times, or promise that a booking has been delivered if no working submission endpoint exists.
+
+Provide a configurable integration point for a real backend, booking platform, or business email workflow. Connect the form to an actual destination before describing it as fully operational.
+
+If submission fails, preserve the customer's entries and show a helpful error message.
+
+## 9. BOOK PAGE
+
+The Book page should function as a dedicated entry point into the booking process.
+
+When a visitor clicks Book Now, Book Your Experience, or another booking CTA:
+
+1. Open the Book page or navigate to the booking experience.
+2. Direct the visitor to the Services page in booking mode.
+3. Bring the customer to the service-selection and booking interface.
+4. Allow multiple services to be selected.
+5. Calculate available estimates automatically.
+6. Collect the customer's appointment preferences.
+7. Submit the request through the configured booking workflow.
+
+Use a URL pattern or application state that supports direct entry into booking mode, such as `/services?mode=booking`.
+
+Do not create a disconnected booking page that duplicates the entire Services interface.
+
+Keep the experience simple, elegant, and easy to complete on mobile.
+
+## 10. GALLERY PAGE
+
+Create a visually rich gallery that celebrates hair artistry, protective hairstyles, the salon environment, spa experiences, and wellness.
+
+### Gallery categories
+
+Provide filters for:
+
+- All
+- Braids
+- Protective Styles
+- Spa
+- Wellness
+- Salon
+
+Only include categories for which there is relevant content. Empty categories should be hidden or clearly marked as awaiting content.
+
+### Layout
+
+Use a responsive editorial or masonry-style image grid with varied image proportions and consistent spacing.
+
+Images should be large enough to appreciate the details. Avoid an overly dense grid of tiny thumbnails.
+
+### Interactions
+
+- Clicking an image should open a lightbox or enlarged image view.
+- Provide accessible next and previous controls where appropriate.
+- Include a visible close button.
+- Support keyboard navigation.
+- Provide meaningful alternative text for informative images.
+- Make category filtering work correctly.
+
+### Image authenticity
+
+Prioritise actual business photographs supplied by Winnipeg Braids 2u.
+
+If temporary stock or demonstration images are used during development, keep the image assets easy to replace and do not claim that they depict the business's actual clients, treatments, staff, or premises.
+
+Create a dedicated image directory so the owner can replace images without restructuring the page.
+
+## 11. CONTACT PAGE
+
+Build a welcoming, professional contact page that makes it easy for customers to reach the business.
+
+### Contact information
+
+Use these existing business details, making them easy to update:
+
+**Business:** Winnipeg Braids 2u
+
+**Phone:** 204-963-3785
+
+**Email:** ines@WinnipegBraids2u.ca
+
+**Address:** 542 Dufferin Avenue, Winnipeg, Manitoba, Canada
+
+**Opening hours previously supplied:**
+
+- Monday–Friday: 9:00 AM–7:00 PM
+- Saturday: 9:00 AM–6:00 PM
+- Sunday: Not specified
+
+These hours and the address should be verified by the business before publication. Do not invent Sunday hours.
+
+### Contact layout
+
+Include:
+
+- A refined contact-page introduction
+- Phone and email links
+- Address and location information
+- Opening hours
+- A functional contact form
+- A map or map embed, if correctly configured
+- Verified social media links
+- A booking CTA
+
+### Contact form fields
+
+- Full name
+- Email
+- Phone, optional if not needed
+- Subject or enquiry type
+- Message
+
+Validate the form and show appropriate success or error feedback.
+
+Connect the form to a real submission destination before presenting it as fully operational. If no backend exists, label it as a demonstration form or provide a clearly explained alternative contact method.
+
+Do not display a fake map location or invent social media URLs.
+
+## 12. RESPONSIVE DESIGN
+
+The entire website must work smoothly across:
+
+- Desktop computers
+- Laptops
+- Tablets
+- Mobile phones
+
+Design mobile layouts intentionally rather than merely shrinking the desktop version.
+
+Requirements:
+
+- No horizontal overflow
+- Readable typography at small sizes
+- Responsive images with sensible cropping
+- Accessible navigation menu
+- Touch-friendly buttons and form controls
+- Proper spacing between interactive elements
+- Responsive service-selection and booking summary layouts
+- A usable gallery and lightbox on mobile
+- A founder section that stacks cleanly
+- A cinematic hero that remains visually strong on smaller screens
+
+Ensure the logo stays visible and correctly proportioned on every supported screen size.
+
+## 13. INTERACTIONS AND MOTION
+
+Use subtle, polished interactions to improve the experience.
+
+Examples include:
+
+- Smooth scrolling where appropriate
+- Gentle image reveals
+- Refined hover effects on links and buttons
+- Subtle transitions between service categories
+- Responsive menu animations
+- Gallery lightbox transitions
+- Clear selected states for chosen services
+- Immediate updates to the booking summary
+
+Motion should be restrained and purposeful. Respect reduced-motion accessibility settings.
+
+Do not add animations that interfere with reading, form completion, page speed, or usability.
+
+## 14. TECHNICAL ARCHITECTURE
+
+Use a maintainable component-based architecture.
+
+Recommended technologies:
+
+- React
+- TypeScript
+- React Router or equivalent routing
+- CSS modules, a well-structured stylesheet system, or an established utility framework
+- Structured data for services, pricing, testimonials, contact details, and gallery assets
+
+Create reusable components such as:
+
+- `Header`
+- `BrandLogo`
+- `MobileNavigation`
+- `HeroSection`
+- `SectionHeading`
+- `ServiceCategory`
+- `ServiceItem`
+- `BookingSummary`
+- `BookingForm`
+- `FounderSection`
+- `GalleryGrid`
+- `GalleryLightbox`
+- `TestimonialSection`
+- `ContactForm`
+- `Footer`
+
+Keep the brand logo, founder portrait, service data, pricing, opening hours, contact information, and image assets easy to update.
+
+Do not hardcode the same business details in multiple unrelated components. Use a shared configuration or data source.
+
+### Booking logic
+
+Separate the booking calculations from the visual components.
+
+The price-calculation logic should correctly handle:
+
+- Multiple selected services
+- Fixed prices
+- Price ranges
+- Quote-required services
+- Home-service eligibility
+- Configured travel fees
+- Unknown or unconfirmed prices
+- Empty selections
+- Removal of services
+- Changes in booking mode
+
+Use appropriate currency formatting for CAD.
+
+Ensure that displayed totals and submitted booking information remain consistent.
+
+### Form and data handling
+
+Validate input on the client and, where a backend exists, on the server.
+
+Do not expose secret API keys or credentials in frontend code.
+
+Do not claim email delivery, appointment scheduling, or persistent storage is working until the corresponding integration has been implemented and tested.
+
+Provide clear loading, success, validation, and error states.
+
+## 15. ACCESSIBILITY, SEO, AND PERFORMANCE
+
+### Accessibility
+
+- Use semantic HTML.
+- Provide appropriate labels for all form fields.
+- Ensure keyboard accessibility.
+- Maintain sufficient text contrast.
+- Provide meaningful image alternative text.
+- Give interactive elements accessible names.
+- Make focus states visible.
+- Ensure the gallery lightbox and mobile navigation can be operated with a keyboard.
+- Respect reduced-motion preferences.
+
+### Search engine optimisation
+
+Use appropriate page titles and meta descriptions for all six pages.
+
+Include relevant local search language naturally, such as hair braiding, protective hairstyles, beauty services, spa, and wellness in Winnipeg.
+
+Use semantic heading structure, descriptive links, clean URLs, and appropriate social-sharing metadata.
+
+Do not add fabricated ratings, review schema, credentials, or business details.
+
+### Performance
+
+- Optimise images and use modern image formats where practical.
+- Avoid unnecessarily large JavaScript bundles.
+- Lazy-load suitable below-the-fold images.
+- Reserve image dimensions to reduce layout shifts.
+- Keep animations lightweight.
+- Ensure the homepage hero loads efficiently.
+- Use appropriate font loading and fallbacks.
+
+## 16. CONTENT AND BRAND INTEGRITY
+
+Keep all content professional, clear, warm, and consistent with the luxury beauty direction.
+
+Use Canadian English where appropriate and CAD as the proposed pricing currency, subject to business confirmation.
+
+Do not invent:
+
+- Founder biography details
+- Staff names
+- Customer testimonials
+- Certifications or qualifications
+- Awards or professional recognition
+- Confirmed appointment availability
+- Unverified spa treatments
+- Final service prices that have not been approved
+- Social media profile URLs
+- Claims about services or facilities that the business does not offer
+
+Where information is missing, use clearly identified, editable placeholders or hide the relevant section until genuine information is supplied.
+
+Do not allow placeholder text, fake reviews, or unconfirmed prices to appear as verified public-facing business information.
+
+## 17. FINAL DESIGN QUALITY CHECKLIST
+
+Before considering the website complete, verify every item below.
+
+### Brand and layout
+
+- The official logo has a dedicated placeholder in the header and footer.
+- The logo can be replaced without redesigning the website.
+- The logo retains its original proportions.
+- The sand and wine-red brand colours are consistently applied.
+- Typography feels premium, readable, and cohesive.
+- The navigation works on desktop and mobile.
+- The website contains exactly six main pages.
+
+### Homepage
+
+- The hero is a single, full-width, full-height cinematic salon-and-spa composition.
+- The hero is not split into two cards or separate panels.
+- The hero headline and both CTAs are present.
+- Hair and spa/wellness services receive balanced visual prominence.
+- Gallery, testimonials, home-service information, and final CTA sections are handled correctly.
+- Unverified testimonials are not fabricated.
+
+### About Us
+
+- The founder portrait has a dedicated placeholder for the real Ines portrait.
+- The founder text sits beside the portrait on desktop.
+- The layout stacks cleanly on mobile.
+- No fictional founder image or invented biography is used.
+
+### Services and booking
+
+- Customers can browse service categories.
+- Customers can select multiple services.
+- The booking summary updates immediately.
+- Fixed prices calculate correctly.
+- Price ranges remain estimates.
+- Quote-required services do not receive invented prices.
+- Home-service fees are applied only when appropriate.
+- Appointment requests validate correctly.
+- The system does not pretend to confirm appointments without real scheduling integration.
+
+### Gallery and contact
+
+- Gallery filters work.
+- Images open in an accessible lightbox.
+- Contact information is editable.
+- Forms have validation and clear feedback.
+- Maps and social links use verified destinations.
+- Opening hours are not published as verified until confirmed.
+
+### Technical quality
+
+- All navigation routes work.
+- No visible buttons are dead or decorative without purpose.
+- No console errors or obvious runtime failures remain.
+- Responsive layouts work across screen sizes.
+- The website follows accessibility, SEO, and performance best practices.
+- Images, prices, service descriptions, logo, and founder portrait are straightforward to replace.
+
+## 18. FINAL IMPLEMENTATION INSTRUCTION
+
+Build the complete website, not merely a plan, wireframe, or static homepage.
+
+Prioritise the cinematic homepage, consistent brand identity, official logo placeholders, balanced hair and spa presentation, founder portrait layout, structured service catalogue, functional multi-service booking experience, and elegant responsive design.
+
+Use realistic placeholder assets only where genuine business assets are missing, and make every placeholder easy to replace. Keep unconfirmed information clearly identified.
+
+The finished website should feel like a polished, premium digital home for Winnipeg Braids 2u: elegant, welcoming, trustworthy, visually memorable, and easy for customers to explore and book.
+
+**Most important visual rule:** The homepage hero must be one immersive, full-screen salon-and-spa image, not a split-screen layout.
+
+**Most important brand rule:** Reserve proper spaces for the actual Winnipeg Braids 2u logo in the header and footer. Never invent or redesign the logo.
+
+**Most important founder rule:** Reserve a dedicated portrait space for the real founder, Ines, beside her editable brand story.
+
+**Most important functional rule:** Build a genuine service-selection and booking-request flow with automatic price calculations, and never claim an appointment is confirmed unless a real booking system confirms it.

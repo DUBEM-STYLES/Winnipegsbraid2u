@@ -1,0 +1,6 @@
+{
+  "name": "Winnipeg Braids 2u",
+  "description": "Premium hair braiding, protective hairstyles, spa and wellness experiences in Winnipeg, Manitoba.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
